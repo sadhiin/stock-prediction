@@ -9,3 +9,13 @@ data_source:
 
 load_data:
   path: data/processed/data.csv
+  test_size: 0.2
+
+model:
+  path: models
+  filename: model.pkl
+
+reports:
+  scores: report/scores.json
+
+webapp_model_dir: models/model.pkl

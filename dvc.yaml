@@ -1,0 +1,12 @@
+stages:
+  train:
+    cmd: python src/train_eval.py --config=params.yaml
+    deps:
+      - src/utils.py
+      - data/processed/data.csv
+    metrics:
+    - report/scores.json:
+        cache: false
+    outs:
+      - models/model.pkl
+
