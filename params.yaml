@@ -5,6 +5,7 @@ base:
 
 data_source:
   raw_source: data/raw/
+  precessed: data/processed/
 
 load_data:
   # raw_dataset_csv: data/raw/winequality.csv
