@@ -1,0 +1,14 @@
+dvc
+scikit-learn
+pandas
+pytest
+tox
+flake8
+Flask
+Flask-Cors
+seaborn
+notebook
+numpy
+matplotlib
+mlflow
+-e .

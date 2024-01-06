@@ -1,0 +1,11 @@
+base:
+  project: StockPrediction
+  random_state: 42
+  # target_col: TARGET
+
+data_source:
+  raw_source: data/raw/
+
+load_data:
+  # raw_dataset_csv: data/raw/winequality.csv
+  processed_source: data/processed/
